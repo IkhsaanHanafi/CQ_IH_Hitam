@@ -34,9 +34,9 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textHasil = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnHitungDosen = new System.Windows.Forms.Button();
+            this.btnUpdateMk = new System.Windows.Forms.Button();
+            this.btnInserData = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -101,44 +101,44 @@
             this.textHasil.Size = new System.Drawing.Size(277, 20);
             this.textHasil.TabIndex = 5;
             // 
-            // button1
+            // btnHitungDosen
             // 
-            this.button1.Location = new System.Drawing.Point(50, 230);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 22);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnHitungDosen.Location = new System.Drawing.Point(50, 230);
+            this.btnHitungDosen.Name = "btnHitungDosen";
+            this.btnHitungDosen.Size = new System.Drawing.Size(129, 22);
+            this.btnHitungDosen.TabIndex = 6;
+            this.btnHitungDosen.Text = "Hitung Dosen";
+            this.btnHitungDosen.UseVisualStyleBackColor = true;
+            this.btnHitungDosen.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnUpdateMk
             // 
-            this.button2.Location = new System.Drawing.Point(214, 230);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 22);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnUpdateMk.Location = new System.Drawing.Point(214, 230);
+            this.btnUpdateMk.Name = "btnUpdateMk";
+            this.btnUpdateMk.Size = new System.Drawing.Size(144, 22);
+            this.btnUpdateMk.TabIndex = 7;
+            this.btnUpdateMk.Text = "Update SKS";
+            this.btnUpdateMk.UseVisualStyleBackColor = true;
+            this.btnUpdateMk.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnInserData
             // 
-            this.button3.Location = new System.Drawing.Point(394, 231);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(120, 21);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnInserData.Location = new System.Drawing.Point(394, 231);
+            this.btnInserData.Name = "btnInserData";
+            this.btnInserData.Size = new System.Drawing.Size(120, 21);
+            this.btnInserData.TabIndex = 8;
+            this.btnInserData.Text = "Insert Prodi";
+            this.btnInserData.UseVisualStyleBackColor = true;
+            this.btnInserData.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnInserData);
+            this.Controls.Add(this.btnUpdateMk);
+            this.Controls.Add(this.btnHitungDosen);
             this.Controls.Add(this.textHasil);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdate);
@@ -161,9 +161,9 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textHasil;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnHitungDosen;
+        private System.Windows.Forms.Button btnUpdateMk;
+        private System.Windows.Forms.Button btnInserData;
     }
 }
 
