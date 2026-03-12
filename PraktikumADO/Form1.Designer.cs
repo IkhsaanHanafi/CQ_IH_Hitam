@@ -42,7 +42,7 @@
             // btnConnect
             // 
             this.btnConnect.Location = new System.Drawing.Point(17, 288);
-            this.btnConnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(2);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(98, 32);
             this.btnConnect.TabIndex = 0;
@@ -53,7 +53,7 @@
             // btnHitungMhs
             // 
             this.btnHitungMhs.Location = new System.Drawing.Point(158, 288);
-            this.btnHitungMhs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHitungMhs.Margin = new System.Windows.Forms.Padding(2);
             this.btnHitungMhs.Name = "btnHitungMhs";
             this.btnHitungMhs.Size = new System.Drawing.Size(112, 31);
             this.btnHitungMhs.TabIndex = 1;
@@ -64,7 +64,7 @@
             // btnHitungMk
             // 
             this.btnHitungMk.Location = new System.Drawing.Point(298, 288);
-            this.btnHitungMk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHitungMk.Margin = new System.Windows.Forms.Padding(2);
             this.btnHitungMk.Name = "btnHitungMk";
             this.btnHitungMk.Size = new System.Drawing.Size(119, 31);
             this.btnHitungMk.TabIndex = 2;
@@ -75,7 +75,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Location = new System.Drawing.Point(467, 288);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(106, 31);
             this.btnUpdate.TabIndex = 3;
@@ -96,7 +96,7 @@
             // textHasil
             // 
             this.textHasil.Location = new System.Drawing.Point(180, 114);
-            this.textHasil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textHasil.Margin = new System.Windows.Forms.Padding(2);
             this.textHasil.Name = "textHasil";
             this.textHasil.Size = new System.Drawing.Size(277, 20);
             this.textHasil.TabIndex = 5;
@@ -109,7 +109,7 @@
             this.btnHitungDosen.TabIndex = 6;
             this.btnHitungDosen.Text = "Hitung Dosen";
             this.btnHitungDosen.UseVisualStyleBackColor = true;
-            this.btnHitungDosen.Click += new System.EventHandler(this.button1_Click);
+            this.btnHitungDosen.Click += new System.EventHandler(this.btnHitungDosen_Click);
             // 
             // btnUpdateMk
             // 
@@ -119,7 +119,7 @@
             this.btnUpdateMk.TabIndex = 7;
             this.btnUpdateMk.Text = "Update SKS";
             this.btnUpdateMk.UseVisualStyleBackColor = true;
-            this.btnUpdateMk.Click += new System.EventHandler(this.button2_Click);
+            this.btnUpdateMk.Click += new System.EventHandler(this.btnUpdateSKS_Click);
             // 
             // btnInserData
             // 
@@ -129,7 +129,7 @@
             this.btnInserData.TabIndex = 8;
             this.btnInserData.Text = "Insert Prodi";
             this.btnInserData.UseVisualStyleBackColor = true;
-            this.btnInserData.Click += new System.EventHandler(this.button3_Click);
+            this.btnInserData.Click += new System.EventHandler(this.btnInsertProdi_Click);
             // 
             // Form1
             // 
@@ -145,7 +145,7 @@
             this.Controls.Add(this.btnHitungMk);
             this.Controls.Add(this.btnHitungMhs);
             this.Controls.Add(this.btnConnect);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
